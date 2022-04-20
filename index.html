@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wardrobe </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"> <img src="img/logo1.png" class="logo" alt="" style="width: 180px; height: 60px;"> </a>
+
+        <div>
+            <ul id="navbar">
+                <li> <a class="active" href="index.html"> Home </a> </li>
+                <li> <a href="organize.html"> Organize </a> </li>
+                <li> <a href="Search.html"> Search </a> </li>
+                <li> <a href="about.html"> About Us </a> </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="mbg">
+        <h2> Wardrobe </h2>
+        <h1> Get Ready </h1>
+        <p> A place to organize and mange your outfits </p>
+        <h3> Start Now</h3>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6> Share </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6> organize </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6> 24/7 online </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6> Save Money </h6>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <div class="main">
+            <input type="checkbox" id="chk" aria-hidden="true">
+
+            <div class="signup">
+                <form action="insert.php" method="post">
+                    <label for="chk" aria-hidden="true">Sign up</label>
+                    <input type="text" name="Username" id="username" placeholder="User Name" required="">
+                    <input type="email" name="Email" id="email" placeholder="Email" required="">
+                    <input type="password" name="Password" id="password" placeholder="Password" required="">
+                    <input type="text" name="Branch" id="Branch" placeholder="Branch" required="">
+                    <input type="text" name="Phonenumber" id="phonenumber" placeholder="Phone Number" required="">
+                    <input type="text" name="Roomnumber" id="roomnumber" placeholder="Room Number" required="">
+                    <input type="text" name="RollnUmber" id="rollnumber" placeholder="Rolll Number" required="">
+                    <button type="submit"> Sign up </button>
+                </form>
+                <pre style="align-items: center; color: #F6F6F6;">
+              Already have an account? login here.
+            </pre>
+            </div>
+
+            <div class="login">
+
+                <form action="insert.php" method="post">
+                    <label for="chk" aria-hidden="true">Login</label>
+                    <input type="email" name="Email" placeholder="Email" required="">
+                    <input type="password" name="Password" placeholder="Password" required="">
+                    <button><a href="organize.html">Login</a> </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo2.png" alt="" style="height: 80%; width: 100%;">
+        </div>
+        <div class="col">
+            <h4> Credits: </h4>
+            <a href="https://www.instagram.com/z0te._/"> Nishitesh Padhi</a> <br>
+            <pre> UCSE20042</pre> <br> <br>
+            <a href="https://www.instagram.com/_tuliyaaah_/"> Soumyashree Shreechandan</a>
+            <pre> UCSE20063</pre>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
